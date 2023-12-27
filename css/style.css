@@ -69,7 +69,13 @@ button:hover {
     transform: translate(-50%, -50%);
     background-color: #181717;
     box-shadow: 0 0 25px rgba(255, 255, 255, 0.589);
-    overflow: hidden;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.card::-webkit-scrollbar {
+    display: none;
 }
 
 .icon {
@@ -114,6 +120,5 @@ button:hover {
     .card {
         width: 100%;
         background-color: #181717;
-        overflow: hidden;
     }
 }
