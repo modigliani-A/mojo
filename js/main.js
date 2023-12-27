@@ -71,7 +71,7 @@ document.getElementById('validarBtn').addEventListener('click', function() {
         document.getElementById('passwordInput').style.display = 'none';
         document.getElementById('validarBtn').style.display = 'none';
         document.getElementById('modalSanti').style.display = 'block';
-    } else if(password === '1234') {
+    } else if(password === '1243') {
         document.getElementById('passwordInput').style.display = 'none';
         document.getElementById('validarBtn').style.display = 'none';
         document.getElementById('modalWren').style.display = 'block';

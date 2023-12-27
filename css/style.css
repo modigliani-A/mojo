@@ -13,6 +13,14 @@ body {
     background-color: black;
 }
 
+a {
+    color: #c70c0c;
+}
+
+a:hover {
+    color: #970909;
+}
+
 button {
     padding: .5rem 1.5rem .5rem 1.5rem;
     color: white;
